@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Display.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Display.Designer.cs">
+      <DependentUpon>Display.cs</DependentUpon>
+    </Compile>
     <Compile Include="Keypad.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -52,6 +58,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Display.resx">
+      <DependentUpon>Display.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Keypad.resx">
       <DependentUpon>Keypad.cs</DependentUpon>
     </EmbeddedResource>
