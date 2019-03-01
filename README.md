@@ -1,0 +1,2 @@
+# POS
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4e28613109b24a5a93cac0685c8a715a)](https://app.codacy.com/app/NHTHEBEST/POS?utm_source=github.com&utm_medium=referral&utm_content=NEJC-Programing/POS&utm_campaign=Badge_Grade_Dashboard)
